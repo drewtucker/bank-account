@@ -2,6 +2,24 @@
 var userName;
 var initialDeposit;
 
+var Bank {
+  accounts: [];
+  
+
+ function bankAccount = {
+  this.name = name;
+  this.userName = userName;
+  this.password = password;
+  this.balance = balance;
+},
+
+
+}
+
+
+
+
+
 
 //USER INTERFACE LOGIC
 $(document).ready(function(){
