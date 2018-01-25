@@ -14,18 +14,63 @@
         <h1>Broke Ash Credit Union</h1>
       </div>
       <form  id= "userNameEntry">
-        <label for="userNameInput"> Please enter your name:</label>
+        <label for="userNameInput"> Please enter your name: </label>
         <input id="userNameInput" type="text">
+        <br>
         <br>
         <button type="submit" class="btn btn-info">Enter</button>
       </form>
         <br>
         <form id="initialDeposit">
-        <label for="userInitialDeposit"> Initial deposit:</label>
+        <label for="userInitialDeposit"> Initial deposit: </label>
         <input id="userInitialDeposit" type="text">
+        <br>
         <br>
         <button type="submit" class="btn btn-info">Enter</button>
       </form>
+    </div>
+    <div class="container">
+      <div class="row">
+
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-4">
+        <div id="accountBalanceDisplay">
+
+          <h2><span id="userNameDisplay"></span>Account Balance:</h2>
+          <h2 id="accountBalanceTotal"></h2>
+        </div>
+      </div>
+      <div class="col-md-4">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+      </div>
+      <div id="columns">
+
+      <div class="col-md-4">
+        <form  id= "depositEntry">
+          <label for="userDepositEntry"> Deposit Amount: </label>
+          <input id="userDepositEntry" type="text">
+          <br>
+          <br>
+          <button type="submit" class="btn btn-info">Enter</button>
+        </form>
+      </div>
+      <div class="col-md-4">
+        <form id="withdrawalEntry">
+          <label for="userWithdrawalEntry"> Withdraw Amount: </label>
+          <input id="userWithdrawalEntry" type="text">
+          <br>
+          <br>
+          <button type="submit" class="btn btn-info">Enter</button>
+        </form>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+    </div>
     </div>
   </body>
 </html>

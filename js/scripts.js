@@ -11,6 +11,7 @@ $("#userNameEntry").submit(function(event){
   userName = $("input#userNameInput").val();
   $("#userNameEntry").slideUp();
   $("#initialDeposit").fadeToggle();
+  $("#userNameDisplay").text(userName + "'s ");
   console.log(userName);
   return userName;
 });
@@ -24,6 +25,11 @@ $("#initialDeposit").submit(function(event){
   }
   else{
   $("#initialDeposit").slideUp();
+  $("#accountBalanceDisplay").fadeToggle();
+  $("#accountBalanceTotal").text("$" + initialDeposit + ".00");
+  $("#depositEntry").fadeToggle();
+  $("#withdrawalEntry").fadeToggle();
+  $("#columns").fadeToggle();
   console.log(initialDeposit);
   return initialDeposit;
   }

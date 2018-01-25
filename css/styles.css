@@ -1,3 +1,42 @@
+
+.jumbotron {
+  text-align: center;
+}
+
+#userNameEntry {
+  text-align: center;
+}
+
 #initialDeposit {
   display: none;
+  text-align: center;
+}
+
+#accountBalanceDisplay {
+  text-align: center;
+  display: none;
+
+}
+
+#accountBalanceTotal {
+  color: tomato;
+}
+
+#accountBalanceDisplay {
+  border-style: outset;
+}
+
+#depositEntry {
+  display: none;
+}
+
+#withdrawalEntry {
+  display: none;
+}
+
+#columns {
+  display: none;
+  margin: 50px;
+  padding: 30px;
+  border-style: outset;
 }
